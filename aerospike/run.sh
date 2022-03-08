@@ -1,0 +1,1 @@
+docker run  --rm -tid --name aerospike -p 3000:3000 -p 3001:3001 -p 3002:3002 -v /opt/aerospike/etc/:/aerospike/etc -e "FEATURE_KEY_FILE=/aerospike/etc/trial-features.conf" aerospike/aerospike-server-enterprise
